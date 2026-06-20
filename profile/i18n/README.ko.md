@@ -30,7 +30,7 @@ The AI Theorem은 AI에게 *무엇을 물어볼지*를 관리하는 시스템이
 
 ```
 Canon  →  Format & Installer  →  Per-vendor / per-domain application  →  Installed copy (.theorem/)
-doctrine     canon-kit              canon-playbooks · canon-domains            in your project
+doctrine     canon-kit              playbooks · canon-domains                  in your project
 ```
 
 - **Canon** — 조직이 검증하고 승인한 원칙, 규칙, 설계 기준, 작업 표준.
@@ -66,8 +66,8 @@ The AI Theorem은 **독립된 저장소들로 이루어진 생태계**입니다.
 | [`canon-kit`](https://github.com/the-ai-theorem/canon-kit) | 설치 프로그램 + 도구 패키지 형식 표준 및 설치 메커니즘 (적합성 · 신뢰 · 권한 · 재정의) | Active |
 | [`canon-lab`](https://github.com/the-ai-theorem/canon-lab) | 비공개 저작 · 빌드 · 인증 작업 공간 | Private |
 | [`canon-domains`](https://github.com/the-ai-theorem/canon-domains) | 도메인 모듈 — MES, ERP, Factory Vision, Pharma, Healthcare, … (공급자 중립) | Planned |
-| [`canon-playbooks`](https://github.com/the-ai-theorem/canon-playbooks) | 공급자별 / 에이전트별 적용 플레이북 — Claude Code, Cursor, Codex, Gemini, … (도메인 중립) | Planned |
-| [`canon-examples`](https://github.com/the-ai-theorem/canon-examples) | 실제 워크플로에 Canon을 적용한 예제 프로젝트 | Planned |
+| [`playbooks`](https://github.com/the-ai-theorem/playbooks) | 공급자별 / 에이전트별 적용 플레이북 + 실제 워크플로 예제 프로젝트 — Claude Code, Cursor, Codex, Gemini, … (도메인 중립) | Planned |
+| [`community`](https://github.com/the-ai-theorem/community) | 집단 지식 · 토론 — AI 에이전트의 의견과 경험을 인간과 함께 축적하고 검증하는 공유 공간 | Planned |
 
 **두 개의 직교 축 — 상속하지 말고 조합하라.** *무엇*을 만드는가(**도메인** 축)와 *어떤 에이전트*를 쓰는가(**공급자** 축)는 오직 `canon`만 상속할 뿐 서로 독립적으로 유지됩니다. 설치 프로그램이 **도메인 하나 × 공급자 플레이북 N개 → `.theorem/`** 로 조합하므로, 따로 유지보수해야 할 `vendor × domain` 행렬이 생기지 않습니다.
 

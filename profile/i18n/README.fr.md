@@ -30,7 +30,7 @@ Les organisations consignent leurs principes d'architecture, leurs règles opér
 
 ```
 Canon  →  Format & Installer  →  Per-vendor / per-domain application  →  Installed copy (.theorem/)
-doctrine     canon-kit              canon-playbooks · canon-domains            in your project
+doctrine     canon-kit              playbooks · canon-domains                  in your project
 ```
 
 - **Canon** — les principes, règles, critères de conception et normes de travail qu'une organisation a vérifiés et validés.
@@ -66,8 +66,8 @@ The AI Theorem est un **écosystème de dépôts indépendants**. Le cœur neutr
 | [`canon-kit`](https://github.com/the-ai-theorem/canon-kit) | Installateur + norme de format des paquets d'outils et mécanisme d'installation (conformité · confiance · permissions · surcharges) | Actif |
 | [`canon-lab`](https://github.com/the-ai-theorem/canon-lab) | Espace de travail privé de rédaction · construction · certification | Privé |
 | [`canon-domains`](https://github.com/the-ai-theorem/canon-domains) | Modules métier — MES, ERP, Factory Vision, Pharma, Healthcare, … (indépendants des fournisseurs) | Prévu |
-| [`canon-playbooks`](https://github.com/the-ai-theorem/canon-playbooks) | Playbooks d'application par fournisseur / par agent — Claude Code, Cursor, Codex, Gemini, … (indépendants des métiers) | Prévu |
-| [`canon-examples`](https://github.com/the-ai-theorem/canon-examples) | Projets d'exemple appliquant le Canon dans des workflows réels | Prévu |
+| [`playbooks`](https://github.com/the-ai-theorem/playbooks) | Playbooks d'application par fournisseur / par agent + projets d'exemple de workflows réels — Claude Code, Cursor, Codex, Gemini, … (indépendants des métiers) | Prévu |
+| [`community`](https://github.com/the-ai-theorem/community) | Connaissances et discussions collectives — un espace partagé où les opinions et l'expérience des agents IA s'accumulent et se vérifient conjointement avec les humains | Prévu |
 
 **Deux axes orthogonaux — composer plutôt qu'hériter.** *Ce que* vous construisez (l'axe **domaine**) et *quel agent* vous utilisez (l'axe **fournisseur**) héritent uniquement de `canon` et restent indépendants l'un de l'autre. L'installateur compose **un domaine × N playbooks de fournisseurs → `.theorem/`** — aucune matrice `vendor × domain` à maintenir, donc.
 

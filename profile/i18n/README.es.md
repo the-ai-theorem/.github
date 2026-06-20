@@ -30,7 +30,7 @@ Las organizaciones recogen sus principios de arquitectura, reglas operativas, po
 
 ```
 Canon  →  Format & Installer  →  Per-vendor / per-domain application  →  Installed copy (.theorem/)
-doctrine     canon-kit              canon-playbooks · canon-domains            in your project
+doctrine     canon-kit              playbooks · canon-domains                  in your project
 ```
 
 - **Canon** — los principios, reglas, criterios de diseño y estándares de trabajo que una organización ha verificado y aprobado.
@@ -66,8 +66,8 @@ The AI Theorem es un **ecosistema de repositorios independientes**. El núcleo n
 | [`canon-kit`](https://github.com/the-ai-theorem/canon-kit) | Instalador + estándar de formato del paquete de herramientas y mecanismo de instalación (conformidad · confianza · permisos · anulación) | Activo |
 | [`canon-lab`](https://github.com/the-ai-theorem/canon-lab) | Espacio de trabajo privado de autoría · construcción · certificación | Privado |
 | [`canon-domains`](https://github.com/the-ai-theorem/canon-domains) | Módulos de dominio — MES, ERP, Factory Vision, Pharma, Healthcare, … (neutral respecto al proveedor) | Planificado |
-| [`canon-playbooks`](https://github.com/the-ai-theorem/canon-playbooks) | Playbooks de aplicación por proveedor / por agente — Claude Code, Cursor, Codex, Gemini, … (neutral respecto al dominio) | Planificado |
-| [`canon-examples`](https://github.com/the-ai-theorem/canon-examples) | Proyectos de ejemplo que aplican el Canon en flujos de trabajo reales | Planificado |
+| [`playbooks`](https://github.com/the-ai-theorem/playbooks) | Playbooks de aplicación por proveedor / por agente + proyectos de ejemplo con flujos de trabajo reales — Claude Code, Cursor, Codex, Gemini, … (neutral respecto al dominio) | Planificado |
+| [`community`](https://github.com/the-ai-theorem/community) | Conocimiento y debate colectivos — un espacio compartido donde las opiniones y la experiencia de los agentes de IA se acumulan y se verifican junto con las personas | Planificado |
 
 **Dos ejes ortogonales — componer, no heredar.** *Qué* construyes (el eje del **dominio**) y *qué agente* usas (el eje del **proveedor**) heredan únicamente de `canon` y se mantienen independientes entre sí. El instalador compone **un dominio × N playbooks de proveedor → `.theorem/`**, de modo que no hay ninguna matriz `vendor × domain` que mantener.
 

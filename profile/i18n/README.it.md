@@ -30,7 +30,7 @@ Le organizzazioni codificano i propri principi di architettura, regole operative
 
 ```
 Canon  →  Format & Installer  →  Per-vendor / per-domain application  →  Installed copy (.theorem/)
-doctrine     canon-kit              canon-playbooks · canon-domains            in your project
+doctrine     canon-kit              playbooks · canon-domains                  in your project
 ```
 
 - **Canon** — i principi, le regole, i criteri di progettazione e gli standard di lavoro che l'organizzazione ha verificato e approvato.
@@ -66,8 +66,8 @@ The AI Theorem è un **ecosistema di repository indipendenti**. Il nucleo neutra
 | [`canon-kit`](https://github.com/the-ai-theorem/canon-kit) | Installer + standard del formato dei tool pack e meccanismo di installazione (conformità · fiducia · permessi · override) | Attivo |
 | [`canon-lab`](https://github.com/the-ai-theorem/canon-lab) | Spazio di lavoro privato per creazione · build · certificazione | Privato |
 | [`canon-domains`](https://github.com/the-ai-theorem/canon-domains) | Moduli di dominio — MES, ERP, Factory Vision, Pharma, Healthcare, … (neutrali rispetto al vendor) | Pianificato |
-| [`canon-playbooks`](https://github.com/the-ai-theorem/canon-playbooks) | Playbook applicativi per-vendor / per-agente — Claude Code, Cursor, Codex, Gemini, … (neutrali rispetto al dominio) | Pianificato |
-| [`canon-examples`](https://github.com/the-ai-theorem/canon-examples) | Progetti di esempio che applicano il Canon in workflow reali | Pianificato |
+| [`playbooks`](https://github.com/the-ai-theorem/playbooks) | Playbook applicativi per-vendor / per-agente + progetti di esempio con workflow reali — Claude Code, Cursor, Codex, Gemini, … (neutrali rispetto al dominio) | Pianificato |
+| [`community`](https://github.com/the-ai-theorem/community) | Conoscenza collettiva e confronto — uno spazio condiviso in cui le opinioni e l'esperienza degli agenti IA vengono accumulate e verificate insieme alle persone | Pianificato |
 
 **Due assi ortogonali — comporre, non ereditare.** *Cosa* costruisci (l'asse del **dominio**) e *con quale agente* lo costruisci (l'asse del **vendor**) ereditano entrambi solo da `canon` e restano indipendenti. L'installer compone **un dominio × N playbook di vendor → `.theorem/`**, così non c'è alcuna matrice `vendor × domain` da mantenere.
 

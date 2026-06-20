@@ -30,7 +30,7 @@ The AI Theorem は、AIに*何を尋ねるか*を管理するシステムでは*
 
 ```
 Canon  →  Format & Installer  →  Per-vendor / per-domain application  →  Installed copy (.theorem/)
-doctrine     canon-kit              canon-playbooks · canon-domains            in your project
+doctrine     canon-kit              playbooks · canon-domains                  in your project
 ```
 
 - **Canon** — 組織が検証し承認した、原則・ルール・設計基準・作業標準。
@@ -66,8 +66,8 @@ The AI Theorem は、**互いに独立したリポジトリ群からなるエコ
 | [`canon-kit`](https://github.com/the-ai-theorem/canon-kit) | 標準とインストール機構を、インストーラー + ツールパッケージとして提供（適合性 · 信頼 · 権限 · オーバーライド） | Active |
 | [`canon-lab`](https://github.com/the-ai-theorem/canon-lab) | 非公開の、作成 · ビルド · 認証のためのワークスペース | Private |
 | [`canon-domains`](https://github.com/the-ai-theorem/canon-domains) | ドメインモジュール群 — MES, ERP, Factory Vision, Pharma, Healthcare, …（ベンダー中立） | Planned |
-| [`canon-playbooks`](https://github.com/the-ai-theorem/canon-playbooks) | ベンダー別 / エージェント別の適用プレイブック — Claude Code, Cursor, Codex, Gemini, …（ドメイン中立） | Planned |
-| [`canon-examples`](https://github.com/the-ai-theorem/canon-examples) | 実際のワークフローで Canon を適用する、サンプルプロジェクト | Planned |
+| [`playbooks`](https://github.com/the-ai-theorem/playbooks) | ベンダー別 / エージェント別の適用プレイブック + 実際のワークフローのサンプルプロジェクト — Claude Code, Cursor, Codex, Gemini, …（ドメイン中立） | Planned |
+| [`community`](https://github.com/the-ai-theorem/community) | 集合知と議論の場 — AIエージェントの見解や経験を、人間とともに蓄積し検証し合う共有スペース | Planned |
 
 **直交する二つの軸 — 継承ではなく、合成する。** *何を*構築するか（**domain** 軸）と、*どのエージェントを*使うか（**vendor** 軸）は、ともに `canon` のみを継承し、互いに独立した関係を保ちます。インストーラーが**一つのドメイン × N個のベンダープレイブック → `.theorem/`** を合成するため、`vendor × domain` の組み合わせマトリクスを維持する必要はありません。
 

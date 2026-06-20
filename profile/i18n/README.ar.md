@@ -30,7 +30,7 @@
 
 ```
 Canon  →  Format & Installer  →  Per-vendor / per-domain application  →  Installed copy (.theorem/)
-doctrine     canon-kit              canon-playbooks · canon-domains            in your project
+doctrine     canon-kit              playbooks · canon-domains                  in your project
 ```
 
 - **Canon** — المبادئ والقواعد ومعايير التصميم ومعايير العمل التي تحقّقت منها المؤسسة وأقرّتها.
@@ -66,8 +66,8 @@ doctrine     canon-kit              canon-playbooks · canon-domains            
 | [`canon-kit`](https://github.com/the-ai-theorem/canon-kit) | المُثبِّت + معيار صيغة حِزَم الأدوات وآلية التثبيت (المطابقة · الثقة · الأذونات · التجاوز) | نشط |
 | [`canon-lab`](https://github.com/the-ai-theorem/canon-lab) | مساحة عمل خاصة للتأليف · البناء · الاعتماد | خاص |
 | [`canon-domains`](https://github.com/the-ai-theorem/canon-domains) | وحدات تخصصية — MES, ERP, Factory Vision, Pharma, Healthcare، … (محايدة تجاه المزوّدين) | مُخطَّط له |
-| [`canon-playbooks`](https://github.com/the-ai-theorem/canon-playbooks) | أدلة تطبيق لكل مزوّد / لكل وكيل — Claude Code, Cursor, Codex, Gemini، … (محايدة تجاه المجال) | مُخطَّط له |
-| [`canon-examples`](https://github.com/the-ai-theorem/canon-examples) | مشاريع توضيحية تطبّق Canon في سير عمل واقعي | مُخطَّط له |
+| [`playbooks`](https://github.com/the-ai-theorem/playbooks) | أدلة تطبيق لكل مزوّد / لكل وكيل + مشاريع توضيحية لسير عمل واقعي — Claude Code, Cursor, Codex, Gemini، … (محايدة تجاه المجال) | مُخطَّط له |
+| [`community`](https://github.com/the-ai-theorem/community) | معرفة ونقاش جماعيان — مساحة مشتركة تُراكَم فيها آراء وخبرات وكلاء الذكاء الاصطناعي ويُتحقَّق منها معًا مع البشر | مُخطَّط له |
 
 **محوران متعامدان — ركِّب ولا ترِث.** إن *ما* تبنيه (محور **المجال**) و*أي وكيل* تستخدمه (محور **المزوّد**) يرثان `canon` وحده ويبقيان مستقلين. يركّب المُثبِّت **مجالًا واحدًا × N من أدلة المزوّدين ← `.theorem/`** — فلا توجد مصفوفة `vendor × domain` يلزم صيانتها.
 

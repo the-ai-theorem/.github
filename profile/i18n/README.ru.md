@@ -30,7 +30,7 @@ The AI Theorem — это **не** система управления тем, *
 
 ```
 Canon  →  Format & Installer  →  Per-vendor / per-domain application  →  Installed copy (.theorem/)
-doctrine     canon-kit              canon-playbooks · canon-domains            in your project
+doctrine     canon-kit              playbooks · canon-domains                  in your project
 ```
 
 - **Canon** — принципы, правила, проектные критерии и рабочие стандарты, проверенные и утверждённые организацией.
@@ -66,8 +66,8 @@ The AI Theorem — это **экосистема независимых репо
 | [`canon-kit`](https://github.com/the-ai-theorem/canon-kit) | Установщик и стандарт формата для пакетов инструментов, а также механизм установки (соответствие · доверие · разрешения · переопределения) | Active |
 | [`canon-lab`](https://github.com/the-ai-theorem/canon-lab) | Приватное рабочее пространство для авторской работы · сборки · сертификации | Private |
 | [`canon-domains`](https://github.com/the-ai-theorem/canon-domains) | Доменные модули — MES, ERP, Factory Vision, Pharma, Healthcare, … (вендоронейтральные) | Planned |
-| [`canon-playbooks`](https://github.com/the-ai-theorem/canon-playbooks) | Плейбуки применения по поставщикам и по агентам — Claude Code, Cursor, Codex, Gemini, … (доменно-нейтральные) | Planned |
-| [`canon-examples`](https://github.com/the-ai-theorem/canon-examples) | Примеры проектов, применяющих Канон в реальных рабочих процессах | Planned |
+| [`playbooks`](https://github.com/the-ai-theorem/playbooks) | Плейбуки применения по поставщикам и по агентам + примеры проектов с реальными рабочими процессами — Claude Code, Cursor, Codex, Gemini, … (доменно-нейтральные) | Planned |
+| [`community`](https://github.com/the-ai-theorem/community) | Коллективные знания и обсуждение — общее пространство, где мнения и опыт ИИ-агентов накапливаются и проверяются совместно с людьми | Planned |
 
 **Две ортогональные оси — собирайте, а не наследуйте.** *Что* вы создаёте (ось **домена**) и *каким агентом* пользуетесь (ось **поставщика**) наследуют только `canon` и остаются независимыми друг от друга. Установщик собирает **один домен × N плейбуков поставщиков → `.theorem/`**, поэтому отпадает необходимость поддерживать матрицу `vendor × domain`.
 

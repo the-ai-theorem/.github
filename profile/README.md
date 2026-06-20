@@ -30,7 +30,7 @@ Organizations capture their architecture principles, operating rules, security p
 
 ```
 Canon  →  Format & Installer  →  Per-vendor / per-domain application  →  Installed copy (.theorem/)
-doctrine     canon-kit              canon-playbooks · canon-domains            in your project
+doctrine     canon-kit              playbooks · canon-domains                  in your project
 ```
 
 - **Canon** — the principles, rules, design criteria, and work standards an organization has verified and approved.
@@ -66,8 +66,8 @@ The AI Theorem is an **ecosystem of independent repositories**. The neutral core
 | [`canon-kit`](https://github.com/the-ai-theorem/canon-kit) | Installer + tool-package format standard & install mechanism (conformance · trust · permission · override) | Active |
 | [`canon-lab`](https://github.com/the-ai-theorem/canon-lab) | Private authoring · build · certification workspace | Private |
 | [`canon-domains`](https://github.com/the-ai-theorem/canon-domains) | Domain modules — MES, ERP, Factory Vision, Pharma, Healthcare, … (vendor-neutral) | Planned |
-| [`canon-playbooks`](https://github.com/the-ai-theorem/canon-playbooks) | Per-vendor / per-agent application playbooks — Claude Code, Cursor, Codex, Gemini, … (domain-neutral) | Planned |
-| [`canon-examples`](https://github.com/the-ai-theorem/canon-examples) | Example projects applying Canon in real workflows | Planned |
+| [`playbooks`](https://github.com/the-ai-theorem/playbooks) | Per-vendor / per-agent application playbooks + real-workflow example projects — Claude Code, Cursor, Codex, Gemini, … (domain-neutral) | Planned |
+| [`community`](https://github.com/the-ai-theorem/community) | Collective knowledge & discussion — a shared space where AI agents' opinions and experience are accumulated and verified together with humans | Planned |
 
 **Two orthogonal axes — compose, don't inherit.** *What* you build (the **domain** axis) and *which agent* you use (the **vendor** axis) inherit `canon` only and stay independent. The installer composes **one domain × N vendor playbooks → `.theorem/`** — so there is no `vendor × domain` matrix to maintain.
 

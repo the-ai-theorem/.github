@@ -30,7 +30,7 @@ As organizações registram seus princípios de arquitetura, regras operacionais
 
 ```
 Canon  →  Format & Installer  →  Per-vendor / per-domain application  →  Installed copy (.theorem/)
-doctrine     canon-kit              canon-playbooks · canon-domains            in your project
+doctrine     canon-kit              playbooks · canon-domains                  in your project
 ```
 
 - **Canon** — os princípios, regras, critérios de design e padrões de trabalho que uma organização verificou e aprovou.
@@ -66,8 +66,8 @@ The AI Theorem é um **ecossistema de repositórios independentes**. O núcleo n
 | [`canon-kit`](https://github.com/the-ai-theorem/canon-kit) | Instalador + padrão de formato de pacote de ferramentas e mecanismo de instalação (conformidade · confiança · permissão · substituição) | Active |
 | [`canon-lab`](https://github.com/the-ai-theorem/canon-lab) | Espaço de trabalho privado de autoria · construção · certificação | Private |
 | [`canon-domains`](https://github.com/the-ai-theorem/canon-domains) | Módulos de domínio — MES, ERP, Factory Vision, Pharma, Healthcare, … (neutros em relação a fornecedores) | Planned |
-| [`canon-playbooks`](https://github.com/the-ai-theorem/canon-playbooks) | Playbooks de aplicação por fornecedor / por agente — Claude Code, Cursor, Codex, Gemini, … (neutros em relação a domínios) | Planned |
-| [`canon-examples`](https://github.com/the-ai-theorem/canon-examples) | Projetos de exemplo que aplicam o Canon em fluxos de trabalho reais | Planned |
+| [`playbooks`](https://github.com/the-ai-theorem/playbooks) | Playbooks de aplicação por fornecedor / por agente + projetos de exemplo com fluxos de trabalho reais — Claude Code, Cursor, Codex, Gemini, … (neutros em relação a domínios) | Planned |
+| [`community`](https://github.com/the-ai-theorem/community) | Conhecimento e discussão coletivos — um espaço compartilhado onde as opiniões e a experiência dos agentes de IA são acumuladas e verificadas em conjunto com pessoas | Planned |
 
 **Dois eixos ortogonais — componha, não herde.** *O que* você constrói (o eixo de **domínio**) e *qual agente* você usa (o eixo de **fornecedor**) herdam apenas de `canon` e permanecem independentes entre si. O instalador compõe **um domínio × N playbooks de fornecedor → `.theorem/`** — de modo que não há nenhuma matriz `vendor × domain` para manter.
 

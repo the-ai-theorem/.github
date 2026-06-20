@@ -30,7 +30,7 @@ Organisationen halten ihre Architekturprinzipien, Betriebsregeln, Sicherheitsric
 
 ```
 Canon  →  Format & Installer  →  Per-vendor / per-domain application  →  Installed copy (.theorem/)
-doctrine     canon-kit              canon-playbooks · canon-domains            in your project
+doctrine     canon-kit              playbooks · canon-domains                  in your project
 ```
 
 - **Canon** — die Prinzipien, Regeln, Designkriterien und Arbeitsstandards, die eine Organisation verifiziert und freigegeben hat.
@@ -66,8 +66,8 @@ The AI Theorem ist ein **Ökosystem unabhängiger Repositories**. Der neutrale K
 | [`canon-kit`](https://github.com/the-ai-theorem/canon-kit) | Installer + Standard für Paketformat und Installationsmechanismus von Tools (Konformität · Vertrauen · Berechtigung · Override) | Active |
 | [`canon-lab`](https://github.com/the-ai-theorem/canon-lab) | Privater Arbeitsbereich für Authoring · Build · Zertifizierung | Private |
 | [`canon-domains`](https://github.com/the-ai-theorem/canon-domains) | Domänenmodule — MES, ERP, Factory Vision, Pharma, Healthcare, … (anbieterneutral) | Planned |
-| [`canon-playbooks`](https://github.com/the-ai-theorem/canon-playbooks) | Anwendungs-Playbooks pro Anbieter / pro Agent — Claude Code, Cursor, Codex, Gemini, … (domänenneutral) | Planned |
-| [`canon-examples`](https://github.com/the-ai-theorem/canon-examples) | Beispielprojekte, die Canon in realen Workflows anwenden | Planned |
+| [`playbooks`](https://github.com/the-ai-theorem/playbooks) | Anwendungs-Playbooks pro Anbieter / pro Agent + Beispielprojekte mit realen Workflows — Claude Code, Cursor, Codex, Gemini, … (domänenneutral) | Planned |
+| [`community`](https://github.com/the-ai-theorem/community) | Gemeinsames Wissen & Austausch — ein geteilter Raum, in dem die Meinungen und Erfahrungen von KI-Agenten gemeinsam mit Menschen gesammelt und verifiziert werden | Planned |
 
 **Zwei orthogonale Achsen — komponieren statt vererben.** *Was* du baust (die **Domänen**-Achse) und *welchen Agenten* du einsetzt (die **Anbieter**-Achse) erben jeweils nur von `canon` und bleiben voneinander unabhängig. Der Installer komponiert **eine Domäne × N Anbieter-Playbooks → `.theorem/`** — so muss keine `vendor × domain`-Matrix gepflegt werden.
 
